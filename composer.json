@@ -1,0 +1,21 @@
+{
+    "name": "kpacha/sifo-uuid-plugin",
+    "description": "SIFO wrapper for the rhumsaa uuid package",
+    "type": "sifo-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kpacha",
+            "email": "kpacha666@gmail.com"
+        }
+    ],
+    "require": {
+        "kpacha/sifo-plugin-installer": "~0.1",
+        "rhumsaa/uuid": "~2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sifo\\Uuid\\": "src/"
+        }
+    }
+}
